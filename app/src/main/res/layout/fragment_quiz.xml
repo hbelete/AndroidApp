@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quizRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizFragment"
+    tools:showIn="@layout/activity_quiz">
+
+
+    <TextView
+        android:id="@+id/questionNumberTextView"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="313dp"
+        android:layout_height="174dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/guessCountryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="262dp"
+        android:text="Guess the Country:"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <TableLayout
+        android:id="@+id/answersTableLayout"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp">
+
+        <TableRow
+            android:id="@+id/rowOneAnswerButtons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1 "
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowTwoAnswerButtons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowThreeAnswerButtons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowFourAnswerButtons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@color/button_enabled"
+                android:lines="2"
+                android:text="Button"
+                android:textColor="@color/button_text_colour"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/answerTextView"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="TextView"
+        android:textAlignment="center" />
+
+</RelativeLayout>
